@@ -155,7 +155,7 @@ class AvitoParser:
                 url = self.parseURL(item=item)
                 if url and not (url in listURL):
                     csvfile.writelines(url + "\n")
-
+            csvfile.flush()
             print("записано")
             csvfile.close()
 
