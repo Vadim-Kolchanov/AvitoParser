@@ -15,6 +15,17 @@ URL_Nizhniy_novgorod = 'https://www.avito.ru/nizhniy_novgorod/kvartiry/prodam-AS
 URL_Pyatigorsk = 'https://www.avito.ru/pyatigorsk/kvartiry/prodam-ASgBAgICAUSSA8YQ'
 URL_Rostov_na_donu = 'https://www.avito.ru/rostov-na-donu/kvartiry/prodam-ASgBAgICAUSSA8YQ'
 URL_Habarovsk = 'https://www.avito.ru/habarovsk/kvartiry/prodam-ASgBAgICAUSSA8YQ'
+URL_Krasnodar = 'https://www.avito.ru/krasnodar/kvartiry/prodam-ASgBAgICAUSSA8YQ'
+
+URL_Saratov = 'https://www.avito.ru/saratov/kvartiry/prodam-ASgBAgICAUSSA8YQ'
+URL_Tyumen = 'https://www.avito.ru/tyumen/kvartiry/prodam-ASgBAgICAUSSA8YQ'
+URL_Tolyatti = 'https://www.avito.ru/tolyatti/kvartiry/prodam-ASgBAgICAUSSA8YQ'
+URL_Izhevsk = 'https://www.avito.ru/izhevsk/kvartiry/prodam-ASgBAgICAUSSA8YQ'
+URL_Barnaul = 'https://www.avito.ru/barnaul/kvartiry/prodam-ASgBAgICAUSSA8YQ'
+URL_Ulyanovsk = 'https://www.avito.ru/ulyanovsk/kvartiry/prodam-ASgBAgICAUSSA8YQ'
+URL_Irkutsk = 'https://www.avito.ru/irkutsk/kvartiry/prodam-ASgBAgICAUSSA8YQ'
+URL_Yaroslavl = 'https://www.avito.ru/yaroslavl/kvartiry/prodam-ASgBAgICAUSSA8YQ'
+URL_Vladivostok = 'https://www.avito.ru/vladivostok/kvartiry/prodam-ASgBAgICAUSSA8YQ'
 
 '''
 1 шаг.
@@ -36,8 +47,20 @@ URL_Habarovsk = 'https://www.avito.ru/habarovsk/kvartiry/prodam-ASgBAgICAUSSA8YQ
 #avito = parser_avito.AvitoParser(urlCity=URL_Pyatigorsk, indexCity=9, city="Pyatigorsk")
 #avito = parser_avito.AvitoParser(urlCity=URL_Rostov_na_donu, indexCity=10, city="Rostov_na_donu")
 #avito = parser_avito.AvitoParser(urlCity=URL_Habarovsk, indexCity=11, city="Habarovsk")
+#avito = parser_avito.AvitoParser(urlCity=URL_Penza, indexCity=12, city="Penza")
+#avito = parser_avito.AvitoParser(urlCity=URL_Krasnodar, indexCity=13, city="Krasnodar")
+#avito = parser_avito.AvitoParser(urlCity=URL_Saratov, indexCity=14, city="Saratov")
 
-avito = parser_avito.AvitoParser(urlCity=URL_Penza, indexCity=12, city="Penza")
+avito = parser_avito.AvitoParser(urlCity=URL_Tyumen, indexCity=15, city="Tyumen")
+
+#avito = parser_avito.AvitoParser(urlCity=URL_Tolyatti, indexCity=16, city="Tolyatti")
+#avito = parser_avito.AvitoParser(urlCity=URL_Izhevsk, indexCity=17, city="Izhevsk")
+#avito = parser_avito.AvitoParser(urlCity=URL_Barnaul, indexCity=18, city="Barnaul")
+#avito = parser_avito.AvitoParser(urlCity=URL_Irkutsk, indexCity=19, city="Irkutsk")
+#avito = parser_avito.AvitoParser(urlCity=URL_Yaroslavl, indexCity=20, city="Yaroslavl")
+#avito = parser_avito.AvitoParser(urlCity=URL_Vladivostok, indexCity=21, city="Vladivostok")
+
+
 
 '''
 2 шаг.
